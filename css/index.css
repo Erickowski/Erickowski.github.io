@@ -1,0 +1,60 @@
+/* Avatar */
+.avatar {
+    width:250px;
+    height:250px;
+    border-radius:160px;
+    border:10px solid #1a1a1a;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+.fa-heart {
+    color: red;
+}
+.flag-mex {
+    /* background: url("fallback.png") no-repeat center; */
+    background-image: url("img/mexico.svg");
+    background-size: contain;
+}
+img {
+    vertical-align: top!important;
+} 
+.countries-visited img {
+    height:24px; 
+    width:26px;
+}
+/* Contacto */
+.contacto a {
+    font-size: 2rem;
+}
+/* Skills */
+.progress {
+    width: 50px;
+}
+@media (min-width: 576px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 1.25rem;
+        -moz-column-gap: 1.25rem;
+        column-gap: 1.25rem;
+    }
+}
+@media (min-width: 992px) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+/* Footer */
+footer {
+    color: white!important;
+    background-color: #1a1a1a;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+footer div a {
+    color: white!important;
+}
