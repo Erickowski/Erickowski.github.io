@@ -54,6 +54,11 @@ img {
         display: block!important;
     }
 }
+/* Pagina activa */
+.activo{
+    background-color: white!important;
+    color: #1a1a1a!important;
+}
 /* Footer */
 footer {
     color: white!important;
