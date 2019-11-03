@@ -77,13 +77,133 @@
             </aside> 
             <main class="col-lg-8">
                 <div class="container">
-                    <h2 class="text-center mb-5"><i class="fas fa-gem"></i> Projects </h2>
-                        <div class="row">
-                            <div class="col align-self-center">
-                                <a class="btn btn-primary w-100 mb-5" href="personal-projects.html">Personal projects</a>
-                                <a class="btn btn-primary w-100 mb-5" href="school-projects.html">School projects</a>
-                                <a class="btn btn-primary w-100 mb-5" href="course-projects.html">Course projects</a>
-                            </div>
+                    <h2 class="text-center mb-3"><i class="fas fa-gem"></i> Projects </h2>
+                    <div class="row justify-content-around mb-2 botones">
+                        <p>Ver proyecto en accion: <i class="fas fa-play-circle"></i></p>
+                        <p>Ver repositorio: <i class="fab fa-github-alt"></i></p>
+                    </div>
+                    <div id="projects">
+                            <div class="card">
+                                <div class="card-header" id="project1">
+                                    <div class="row justify-content-around">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion1" aria-expanded="true" aria-controls="#descripcion1">
+                                                Personal projects
+                                            </button>
+                                            <span class="badge badge-pill badge-secondary">1</span>
+                                        </h2>
+                                    </div>
+                                </div><!--.card-header-->
+                                <div class="collapse" id="descripcion1" aria-labelledby="project1" data-parent="#projects">
+                                    <ul class="list-group personal-projects">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                erickowski.github.io
+                                                <span class="badge badge-pill badge-info">HTML, CSS, JS y Bootstrap</span>
+                                                <a href="https://erickowski.github.io/" target="_blank"><i class="fas fa-play-circle"></i></a>
+                                                <a href="https://github.com/Erickowski/erickowski.github.io" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </div><!--.card-->
+    
+                            <div class="card">
+                                <div class="card-header" id="project2">
+                                    <div class="row justify-content-around">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion2" aria-expanded="false" aria-controls="#descripcion2" >
+                                                School projects
+                                            </button>
+                                            <span class="badge badge-pill badge-secondary">12</span>
+                                        </h2>
+                                    </div>
+                                </div><!--.card-header-->
+                                <div class="collapse show" id="descripcion2" aria-labelledby="project2" data-parent="#projects">
+                                    <ul class="list-group school-projects">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                IbmATraer
+                                                <span class="badge badge-pill badge-info">React, Redux, Firestore y Bootstrap</span>
+                                                <a href="https://ibmatraer.netlify.com/" target="_blank"><i class="fas fa-play-circle"></i></a>
+                                                <a href="https://github.com/Erickowski/ibmatraer" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Matriz basica para problemas de clasificacion
+                                                <span class="badge badge-pill badge-info">JavaScript, HTML y CSS</span>
+                                                <a href="https://github.com/Erickowski/matriz_basica_problema_clasificacion" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Alcoholímetro
+                                                <span class="badge badge-pill badge-info">Java y Arduino</span>
+                                                <a href="https://github.com/Erickowski/alcoholimetro" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                SALC: Sistema Administrador de Laboratorios de Computo
+                                                <span class="badge badge-pill badge-info">Java y MySQL</span>
+                                                <a href="https://www.youtube.com/watch?v=SL5aGPqgtQU" target="_blank"><i class="fas fa-play-circle"></i></a>
+                                                <a href="https://github.com/Erickowski/sistema_administracion_laboratorios_computo" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Programas de prolog (cocineras y ciudades)
+                                                <span class="badge badge-pill badge-info">Prolog</span>
+                                                <a href="https://github.com/Erickowski/lenguajes_formales_automatas" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Programas de lenguajes formales y automatas
+                                                <span class="badge badge-pill badge-info">C</span>
+                                                <a href="https://github.com/Erickowski/lenguajes_formales_automatas" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Programas del primer concurso de programacion (2do lugar)
+                                                <span class="badge badge-pill badge-info">Java y C</span>
+                                                <a href="https://github.com/Erickowski/Primer_concurso_programacion" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                SAI: Sistema Administrador de Inventario
+                                                <span class="badge badge-pill badge-info">Java y MySQL</span>
+                                                <a href="https://github.com/Erickowski/sistema_administracion_inventario" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Simulador de algoritmos de planificacion
+                                                <span class="badge badge-pill badge-info">C</span>
+                                                <a href="https://github.com/Erickowski/Algortimos_planificacion" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Simulador de control de procesos
+                                                <span class="badge badge-pill badge-info">C</span>
+                                                <a href="https://github.com/Erickowski/Simulador_control_procesos" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Raices de ecuacion por distintos metodos
+                                                <span class="badge badge-pill badge-info">C</span>
+                                                <a href="https://github.com/Erickowski/raices_ecuaciones_diferentes_metodos" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Sistema de control escolar
+                                                <span class="badge badge-pill badge-info">C</span>
+                                                <a href="https://github.com/Erickowski/Sistema_control_escolar" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </div><!--.card-->
+    
+                            <div class="card">
+                                <div class="card-header" id="project3">
+                                    <div class="row justify-content-around">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion3" aria-expanded="false" aria-controls="#descripcion3" >
+                                                Course Projects
+                                            </button>
+                                            <span class="badge badge-pill badge-secondary">0</span>
+                                        </h2>
+                                    </div>
+                                </div><!--.card-header-->
+                                <div class="collapse" id="descripcion3" aria-labelledby="project3" data-parent="#projects">
+                                    <ul class="list-group course-projects">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                erickowski.github.io                                                
+                                            </li>
+                                    </ul>
+                                </div>
+                            </div><!--.card-->
                         </div>
                 </div>
             </main>

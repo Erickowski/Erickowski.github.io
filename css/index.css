@@ -80,24 +80,34 @@ img {
     text-align: center;
     color: #1a1a1a;
 }
-/** Accordion / Education **/
-#educations .card-header {
+/** Accordion / Education & Projects **/
+#educations .card-header,
+#projects .card-header {
     background-color: #1a1a1a;
     padding: 0 1.25rem;
 }
-#educations .card-header .btn-link {
+#educations .card-header .btn-link,
+#projects .card-header .btn-link {
     color: #ffffff;
     font-size: 1.6rem;
 }
-#educations .card-body {
+#educations .card-body,
+#projects .card-body {
     font-size: 1.3rem;
 }
-.awards, .online-courses {
+.awards, .online-courses, .personal-projects,
+.school-projects, .course-projects, .botones {
     color: #1a1a1a;
 }
 @media (max-width: 376px ) {
-    #educations h2 span {
-        font-size: 10px!important;
+    #educations h2{
+        font-size: 1rem!important;
+    }
+}
+@media (max-width: 415px ) {
+    #projects h2 .btn, 
+    #projects h2 span {
+        font-size: 1rem!important;
     }
 }
 /* Footer */
