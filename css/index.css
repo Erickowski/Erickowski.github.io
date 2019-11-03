@@ -12,7 +12,6 @@
     color: red;
 }
 .flag-mex {
-    /* background: url("fallback.png") no-repeat center; */
     background-image: url("img/mexico.svg");
     background-size: contain;
 }
@@ -22,6 +21,8 @@ img {
 .countries-visited img {
     height:24px; 
     width:26px;
+    border: 2px solid #1a1a1a;
+    border-radius: 160px;
 }
 /* Contacto */
 .contacto a {
@@ -68,6 +69,21 @@ img {
 }
 .card-title, .card-text{
     text-align: center;
+    color: #1a1a1a;
+}
+/** Accordion / Education **/
+#educations .card-header {
+    background-color: #1a1a1a;
+    padding: 0 1.25rem;
+}
+#educations .card-header .btn-link {
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+#educations .card-body {
+    font-size: 1.3rem;
+}
+.awards, .online-courses {
     color: #1a1a1a;
 }
 /* Footer */
