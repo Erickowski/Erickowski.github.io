@@ -95,6 +95,11 @@ img {
 .awards, .online-courses {
     color: #1a1a1a;
 }
+@media (max-width: 376px ) {
+    #educations h2 {
+        font-size: 1.1rem!important;
+    }
+}
 /* Footer */
 footer {
     color: white!important;
