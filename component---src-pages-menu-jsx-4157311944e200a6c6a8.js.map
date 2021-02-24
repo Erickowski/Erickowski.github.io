@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/menu.jsx"],"names":["Menu"],"mappings":"4FAAA,6CAMeA,UAFF,kBAAM,YAAC,IAAD","file":"component---src-pages-menu-jsx-4157311944e200a6c6a8.js","sourcesContent":["import React from \"react\"\n\nimport Layout from \"../components/Layout/Layout\"\n\nconst Menu = () => <Layout />\n\nexport default Menu\n"],"sourceRoot":""}
